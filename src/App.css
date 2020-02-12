@@ -1,0 +1,73 @@
+body{
+  margin: 2em;
+
+  align-items: center;
+  text-align: center;
+  background-color: #386983;
+}
+h1{
+    font-family: 'Luminari', fantasy;
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 0px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+button{
+  margin: 1em;
+  border-radius: .25em;
+  font-size: 75%;
+  padding: 1em;
+  transition: 0.5s;
+  border-radius: 12em;
+  background-color: #835338;
+  color: white;
+}
+button:hover{
+    border-radius: 5em;
+    background-color: black;
+    /* background-color: blue; */
+
+}
+footer{
+  padding: 2em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#butcherPig{
+  width: 50%;
+  }
+#pigImage{
+  text-align: center;
+}
+#inputPhrase{
+  font-size: 1em;
+  height: 5em;
+  width: 40em;
+  text-align: center;
+  font-family: 'DejaVu Sans Mono', monospace;
+}
+.translated{
+    font-size: 2em;
+    /* font-family: 'DejaVu Sans Mono', monospace; */
+}
+
+.box{
+  background-color: #606060;
+  color: #fff;
+  border-radius: .2em;
+  padding: 1em;
+  font-size: 150%;
+}
+.header{
+  background-color: #FFF;
+  padding: 1em;
+}
+
+
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row-reverse;
+  justify-content: center;
+}
